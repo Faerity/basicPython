@@ -1,16 +1,11 @@
-# This is a sample Python script.
+# Strings
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+first_name = "Dori"
+last_name = "Cz"
 
+print(f"Hello {first_name} {last_name}")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# TASK: Print the second word of the string with all letters in UPPERCASE.
+input_string = "I love programming with python!"
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(input_string[2:6].upper())
